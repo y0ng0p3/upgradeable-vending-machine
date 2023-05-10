@@ -3,7 +3,7 @@ pragma solidity 0.8.18;
 
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 
-contract VendingMacineV3 is Initializable {
+contract VendingMachineV3 is Initializable {
     uint public numSodas;
     address public owner;
     mapping (address => uint) userSodas;
