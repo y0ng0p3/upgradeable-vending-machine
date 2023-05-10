@@ -1,6 +1,6 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomiclabs/hardhat-etherscan");
-require("@openzeppeling/hardhat-upgrades");
+require("@openzeppelin/hardhat-upgrades");
 require("dotenv").config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
